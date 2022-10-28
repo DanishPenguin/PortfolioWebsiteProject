@@ -6,11 +6,20 @@
 	src: url("fonts/Strawberry Muffins Demo.ttf")
 }
 
+@font-face {
+	font-family: Duvetica;
+	src: url("fonts/Duvetica.otf");
+}
+
 body {
-	font-family: StrawberryMuffins, Verdana, Geneva, Tahoma, sans-serif;
+	font-family: StrawberryMuffins, Verdana, Geneva, Tahoma, sans-serif !important;
 	background-image: linear-gradient(#9d3e90, #664394, #29509f);
 	
-	
+}
+
+h1 {
+	font-family: Duvetica !important;
+	font-weight: 600px !important;
 }
 
 .overlay {
