@@ -18,6 +18,10 @@ body {
 	
 }
 
+header {
+	margin-top: 20px !important;
+}
+
 header h1 {
 	font-family: Duvetica !important;
 	text-align: center;
@@ -30,7 +34,35 @@ header h1 {
 	width: inherit;
 }
 
-nav ul li {
+nav ul {
 	list-style: none;
 	text-decoration: none;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	border: solid white 6px;
+	padding: 2px 25px 10px 25px;
+	border-radius: 25px;
+	background-color: rgba(255,255,255,0.5)
+}
+
+nav ul li a:hover {
+	color: white;
+	background-color: rgba(102,111,207,1.00)
+}
+
+nav ul li a:active {
+		color: white;
+	background-color: rgba(102,111,207,1.00)
+}
+
+nav ul li a:hover:nth-child(2) {
+		color: white;
+	background-color: rgba(125,86,195,1.00)
 }
