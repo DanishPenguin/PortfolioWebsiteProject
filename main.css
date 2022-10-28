@@ -40,6 +40,8 @@ nav ul {
 }
 
 nav ul li {
+	height: auto;
+	width: auto;
 }
 
 nav ul li a {
@@ -49,7 +51,7 @@ nav ul li a {
 	border: solid white 6px;
 	padding: 2px 25px 10px 25px;
 	border-radius: 25px;
-	background-color: rgba(255,255,255,0.5)
+	background-color: rgba(255,255,255,0.5);
 }
 
 nav ul li a:hover {
@@ -57,12 +59,7 @@ nav ul li a:hover {
 	background-color: rgba(102,111,207,1.00)
 }
 
-nav ul li a:active {
-		color: white;
+nav ul li:active {
+	color: white;
 	background-color: rgba(102,111,207,1.00)
-}
-
-nav ul li a:hover:nth-child(2) {
-		color: white;
-	background-color: rgba(125,86,195,1.00)
 }
