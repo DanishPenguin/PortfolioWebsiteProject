@@ -45,7 +45,7 @@ nav ul {
 
 nav ul li {
 	width: 250px !important;
-		color: white;
+	color: white;
 	font-size: 40px;
 	border: solid white 6px;
 	padding: 2px 15px 10px 15px;
@@ -77,7 +77,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:active {
-		color: white;
+	color: white;
 	background-color: rgba(102,111,207,1.00)
 }
 
@@ -112,15 +112,17 @@ main p:nth-child(7) {
 
 footer {
 	height: 100px;
+	padding-left: 300px;
 }
 
 footer i {
 	color: white;
 	align-content: flex-start;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	flex-wrap: wrap;
 	font-size: 40px;
 	margin-right: 10px;
+	margin-top: 30px;
 }
 
 /*Styling til Index/Hjem*/
