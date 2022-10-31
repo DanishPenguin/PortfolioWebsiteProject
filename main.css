@@ -15,6 +15,7 @@ body {
 	font-family: StrawberryMuffins, Verdana, Geneva, Tahoma, sans-serif !important;
 	background-image: linear-gradient(#9d3e90, #664394, #29509f);
 	color: white !important;
+	height: 1100px;
 	
 }
 
@@ -29,32 +30,38 @@ header h1 {
 }
 
 .overlay {
-	background-color: white;
-	height: inherit;
-	width: inherit;
+	background-color: rgba(255,255,255,0.50);
+	height: 1120px;
+	position: absolute;
+	margin: -20px -20px 0px 0px !important;
+	z-index: -1;
 }
 
 nav ul {
 	list-style: none;
 	text-decoration: none;
+	margin-bottom: -6px;
 }
 
 nav ul li {
-	height: auto;
-	width: auto;
+	width: 250px !important;
+		color: white;
+	font-size: 40px;
+	border: solid white 6px;
+	padding: 2px 15px 10px 15px;
+	border-radius: 25px 25px 0px 0px;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	margin-left: 50px;
 }
 
 nav ul li a {
 	text-decoration: none;
-	color: white;
-	font-size: 40px;
-	border: solid white 6px;
-	padding: 2px 25px 10px 25px;
-	border-radius: 25px;
-	background-color: rgba(255,255,255,0.5);
+	color: white
+
 }
 
-nav ul li a:hover {
+nav ul li:hover {
 	color: white;
 	background-color: rgba(102,111,207,1.00)
 }
@@ -62,4 +69,63 @@ nav ul li a:hover {
 nav ul li:active {
 	color: white;
 	background-color: rgba(102,111,207,1.00)
+}
+
+nav ul li a:hover {
+		color: white;
+	background-color: rgba(102,111,207,1.00)
+}
+
+nav ul li a:active {
+		color: white;
+	background-color: rgba(102,111,207,1.00)
+}
+
+main {
+	border: solid white 6px;
+	border-radius: 60px;
+	background-color: rgba(255,255,255,0.3);
+	padding-top: 50px;
+	padding: 50px 0px 60px 0px;
+	height: 800px;
+	
+}
+
+main h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+main p {
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: 20px;
+}
+
+main p:nth-child(7) {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+
+
+
+footer {
+	height: 100px;
+}
+
+footer i {
+	color: white;
+	align-content: flex-start;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	font-size: 40px;
+	margin-right: 10px;
+}
+
+/*Styling til Index/Hjem*/
+
+.portfolioImg img {
+	border: solid white 6px;
+	border-radius: 30px;
 }
