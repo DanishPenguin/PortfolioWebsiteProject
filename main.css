@@ -172,12 +172,45 @@ footer a i {
 
 /*Styling til contact/Kontakt*/
 
-input {
+.contactInfo {
+	font-size: 30px;
+	padding-left: 100px;
+	margin-top: 30px;
+}
+
+.contactInfo i {
+	font-size: 40px;
+	margin-right: 30px;
+}
+
+.contactInfo a {
+	color: white;
+	text-decoration: none;
+}
+
+.contactInfo a:hover {
+	color: rgba(102,111,207,1.00);
+}
+
+h6 {
+	text-align: center;
+	font-size: 20px !important;
+}
+
+form input {
 	color: #371C39;
 	background-color: rgba(255,255,255,0.50);
 	width: 80%;
 	justify-content: center;
+	margin-top: 30px;
+	margin-left: 120px;
+	padding: 10px;
+	font-size: 25px;
+	border: solid white 6px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 5px grey inset;
 }
+
 
 #sendBtn {
 	color: white;
