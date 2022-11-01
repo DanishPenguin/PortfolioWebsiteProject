@@ -42,33 +42,35 @@
 		</ul>	
 	</nav>
 	<main class="container">
+				<div id="backBtn">
+					<a href="portfolio-list.html">
+						<i class="fa-regular fa-circle-chevron-left"></i>
+					</a>
+				</div>
 			<h2>3D Grafik</h2>
 			<div class="row portfolioShowcase">
 				<div class="col-1"></div>
 				<div class="portfolioImg col-4">
-						<a href="#">
-							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid">
-						</a>
+							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid" id="myImg">					
+				</div>
+				<div id="myModal" class="modal">
+						<span class="close fa-regular fa-circle-chevron-left"></span>
+							<h2 id="caption">Steelseries Mus Render</h2>
+ 							 <img class="modal-content img-fluid" id="img-3D-1" src="img/placeholder_med.png" alt="Steelseries Mus Render">
 				</div>
 				<div class="col-1"></div>
-				<div class="portfolioImg col-4">
-						<a href="#">
-							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid">
-						</a>
+				<div class="portfolioImg col-4">	
+							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid">		
 				</div>
 			</div>		
 			<div class="row portfolioShowcase">
 					<div class="col-1"></div>
 							<div class="portfolioImg col-4">
-						<a href="#">
 							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid">
-						</a>
 					</div>
 						<div class="col-1"></div>
-							<div class="portfolioImg col-4">
-						<a href="#">
+							<div class="portfolioImg col-4">		
 							<img src="img/placeholder_med.png" alt="Portfolio Udklip" class="img-fluid">
-						</a>
 					</div>
 			</div>
 	</main>
@@ -87,6 +89,29 @@
 			</i>	
 		</a>
 	</footer>
+	
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
 	
 </body>
 </html>
