@@ -246,6 +246,9 @@ form input:nth-child(3) {
 
 .portfolioDisplay {
 	width: 100%;
+	position: relative;
+	z-index: 3;
+	height: inherit;
 }
 
 .portfolioDisplay img {
@@ -254,10 +257,10 @@ form input:nth-child(3) {
 }
 
 .black-overlay {
-	background-color: rgba(0,0,0,0.70);
+	background-color: rgba(0,0,0,0.60);
 	height: 100%;
 	position: fixed;
 	margin: -20px -20px 0px 0px !important;
-	z-index: 10;
+	z-index: 2;
 }
 
